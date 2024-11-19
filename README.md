@@ -1,4 +1,3 @@
-```markdown
 # Veried_Graph_Embeddings
 
 [![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg)](https://github.com/shenweichen/graphembedding/issues)
@@ -75,4 +74,3 @@ Modified work Copyright (c) 2024 KittyIsGreat
 
 ## Acknowledgments
 Special thanks to [shenweichen](https://github.com/shenweichen) for the original open-source contribution.
-```
