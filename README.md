@@ -6,11 +6,9 @@
 
 This project is a modified version of [GraphEmbedding](https://github.com/shenweichen/GraphEmbedding), primarily addressing environment dependency issues to ensure smooth operation in Python environments as of 2024.
 
-Due to incompatible package versions specified in the original setup.py file (updated in 2022), a new experiment.yml file was successfully debugged and output on November 19, 2024
-
 ## Modifications
-The main modifications include:
-- Installation: 
+Due to incompatible package versions specified in the original setup.py file (updated in 2022), a new `experiment.yml` file was successfully debugged and output on November 19, 2024
+## Installation: 
 ### Quick Setup
 If you want to quickly try it out, you can use the simplified configuration file:
 ```bash
@@ -69,6 +67,7 @@ embeddings = model.get_embeddings()
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Original work Copyright (c) 2019 Weichen Shen
+
 Modified work Copyright (c) 2024 KittyIsGreat
 
 ## Acknowledgments
