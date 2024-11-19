@@ -4,23 +4,23 @@
 [![codecov](https://codecov.io/gh/shenweichen/graphembedding/branch/master/graph/badge.svg)](https://codecov.io/gh/shenweichen/graphembedding)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c46407f5931f40048e28860dccf7dabc)](https://www.codacy.com/gh/shenweichen/GraphEmbedding/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shenweichen/GraphEmbedding&amp;utm_campaign=Badge_Grade)
 
-This project is a modified version of [GraphEmbedding](https://github.com/shenweichen/GraphEmbedding), primarily addressing environment dependency issues to ensure smooth operation in Python environments as of 2024.
+This project is a modified version of [GraphEmbedding](https://github.com/shenweichen/GraphEmbedding), primarily addressing environment dependency issues to ensure smooth operation in Python environments (updated in 2024/11/19).
 
 ## Modifications
-Due to incompatible package versions specified in the original setup.py file (updated in 2022), a new `experiment.yml` file was successfully debugged and output on November 19, 2024. You can use this file to create a conda environment with the correct package versions and ignore the original `setup.py` file.
+Due to incompatible package versions specified in the original setup.py file (updated in 2022), a new `experiment.yml` file was successfully debugged and output on 2024/11/19. You can use this file to create a conda environment with the correct package versions and ignore the original `setup.py` file.
+
 ## Installation
 ### Quick Setup
-If you want to quickly try it out, you can use the simplified configuration file:
+For a quick setup, use the simplified configuration file:
 ```bash
 conda env create -f environment-brief.yml
 ```
 
 ### Exact Configuration (Recommended)
-If you encounter environment setup issues, please use the complete configuration file:
+If you encounter any environment setup issues, please use the complete configuration file:
 ```bash
 conda env create -f environment-full.yml
 ```
-This complete configuration file contains verified exact version information, ensuring full environment consistency.
 
 - Activate environment: `conda activate graph_embedding`
 - Run examples from the example folder:
@@ -51,7 +51,7 @@ We use `networkx` to create graphs. The input edge list format is as follows:
 
 ### Example Code
 
-Here are the basic usage examples for each model:
+Basic usage examples for DeepWalk model:
 
 #### DeepWalk
 ```python
@@ -61,14 +61,14 @@ model.train(window_size=5,iter=3)
 embeddings = model.get_embeddings()
 ```
 
-[Other model examples remain unchanged...]
+Usage of other model examples remain unchanged... See https://github.com/shenweichen/GraphEmbedding for details.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 Original work Copyright (c) 2019 Weichen Shen
 
 Modified work Copyright (c) 2024 KittyIsGreat
 
 ## Acknowledgments
-Special thanks to [shenweichen](https://github.com/shenweichen) for the original open-source contribution.
+Special thanks to [shenweichen](https://github.com/shenweichen) for the original open-source contribution. 
