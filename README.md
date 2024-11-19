@@ -1,4 +1,4 @@
-# Veried_Graph_Embeddings
+# Veried Graph Embeddings
 
 [![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg)](https://github.com/shenweichen/graphembedding/issues)
 [![codecov](https://codecov.io/gh/shenweichen/graphembedding/branch/master/graph/badge.svg)](https://codecov.io/gh/shenweichen/graphembedding)
