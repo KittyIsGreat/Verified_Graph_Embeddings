@@ -8,7 +8,7 @@ This project is a modified version of [GraphEmbedding](https://github.com/shenwe
 
 ## Modifications
 Due to incompatible package versions specified in the original setup.py file (updated in 2022), a new `experiment.yml` file was successfully debugged and output on November 19, 2024. You can use this file to create a conda environment with the correct package versions and ignore the original `setup.py` file.
-## Installation: 
+## Installation
 ### Quick Setup
 If you want to quickly try it out, you can use the simplified configuration file:
 ```bash
