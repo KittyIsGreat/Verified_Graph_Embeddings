@@ -7,7 +7,7 @@
 This project is a modified version of [GraphEmbedding](https://github.com/shenweichen/GraphEmbedding), primarily addressing environment dependency issues to ensure smooth operation in Python environments (updated in 2024/11/19).
 
 ## Modifications
-Due to incompatible package versions specified in the original setup.py file (updated in 2022), a new `experiment.yml` file was successfully debugged and output on 2024/11/19. You can use this file to create a conda environment with the correct package versions and ignore the original `setup.py` file.
+Due to incompatible package versions specified in the original `setup.py` file (updated in 2022), a new `experiment.yml` file was successfully debugged and output on 2024/11/19. You can use this file to create a conda environment with the correct package versions and ignore the original `setup.py` file.
 
 ## Installation
 ### Quick Setup
